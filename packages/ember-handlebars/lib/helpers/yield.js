@@ -62,7 +62,7 @@ var get = Ember.get, set = Ember.set;
 
   ```handlebars
   <!-- application.hbs -->
-  {{#labeled-textfield value=someProperty}}
+  {{#my-component value=someProperty}}
     First name:
   {{/my-component}}
   ```
